@@ -1,0 +1,904 @@
+nav{
+    padding: 20px;
+    background: white;
+}
+.allFirstFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.myName{
+    font-size: 20px;
+    font-family: revert;
+    font-weight: bold;
+    color: #246dd8;
+}
+#listMunu{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+}
+.theLinksForNav{
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    font-family: auto;
+    color: black;
+   
+}
+.theLinksForNav:hover{
+    padding: 15px;
+    border-top: 2px solid #246dd8;
+    transition: 0.5s;
+    background: whitesmoke;
+    cursor: pointer;
+}
+.firstBackground{
+    background: whitesmoke;
+    height: 500px;
+    border-radius: 0 0 382px 0px;
+    
+}
+#fristCol6{
+    padding: 85px 20px;
+}
+.titer{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: revert;
+}
+
+.description{
+    font-size: large;
+    color: gray;
+}
+.firstImg{
+    position: relative;
+    width: 600px;
+    top: 200px;
+    animation: up-and-down 5s linear infinite;
+    
+    right: 50px;
+}
+
+@media (max-width: 575px) {
+    .firstImg{
+        display: none;
+    }
+    nav{
+        padding: 15px;
+      
+    }
+    #listMunu{
+        
+        display: block;
+    }
+    .theLinksForNav{
+        display: none;
+    }
+    .myName{
+     position: relative;
+     top: 8px;
+    }
+}
+@media (max-width: 991px) {
+    .firstImg {
+      display: none;
+    }
+  }
+@media (max-width: 575px) {
+    .firstImg{
+        display: none;
+    }
+}
+
+    @keyframes up-and-down {
+        0%,100%{
+            top: 0;
+        }
+        50%{
+            top: 50px;
+        }
+    }
+
+    /* <!-- this the second section  --> */
+.btnForm{
+    margin: 85px 0;
+    font-size: 34px;
+    padding: 10px;
+    border: 2px solid black;
+    background: transparent;
+    font-weight: bold;
+    /* width: 202px; */
+    text-transform: capitalize;
+    animation: color-transition 2s linear 5;
+    transition: background 0.5s;
+}
+.btnForm:hover {
+    background-color: #246dd8;
+    color: white;
+}
+
+@keyframes color-transition {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: #246cd8c8;
+    }
+}
+.imgSection2{
+    border-radius: 10px 10px 0 0;
+}
+.titleForImg{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 14px;
+}
+.paragraphForImg{
+    margin: 15px;
+    color: #808080cc;
+}
+.readMore{
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 15px;
+}
+#idSecondSection{
+    background: white;
+    margin: 25px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px;
+    border-radius: 10px 10px 0 0 ;
+    padding: 2px;
+    cursor: pointer;
+    
+
+
+}
+#idSecondSection:hover{
+    position: relative;
+    top: -30px;
+    transition: 3s;
+}
+
+.secondBackground{
+    
+    background: whitesmoke;
+ 
+   
+}
+.galleryImg{
+    width: 350px;
+    height:300px;
+    border: 10px solid white;
+    margin: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px;
+    position: relative;
+    top: -50px;
+}
+.galleryImg:hover{
+    animation: flashing 0.7s;
+    transform: rotate(2deg) scale(1.1);
+}
+
+.featuresImg::before{
+    background-color: rgba(244, 64, 54, 0.6);
+}
+.title2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    border-bottom: 4px solid red;
+    width: 110px;   
+}
+.title3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    border-bottom: 4px solid #00800075;
+    width: 110px;   
+}
+.title4{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    border-bottom: 4px solid #0d6efd8c;
+    width: 110px;   
+}
+.praghraph2{
+    padding: 45px;
+    font-size: large;
+    color: gray;
+}
+.btnForFourSection{
+    padding: 8px;
+    text-transform: capitalize;
+    border-color: #ff000075;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff000075;
+    background: transparent;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.btnForFourSection2{
+    padding: 8px;
+    text-transform: capitalize;
+    border-color: #00800075;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00800075;
+    background: transparent;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.btnForFourSection3{
+    padding: 8px;
+    text-transform: capitalize;
+    border-color: #0d6efd8c;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0d6efd8c;
+    background: transparent;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+#forFeatures{
+    border: 1px solid rgba(128, 128, 128, 0.492);
+    width: 367px;
+    margin: 0 5px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.holderImg:hover{
+    background-color: transparent;
+    transition: 2s;
+}
+.holderImg,.holderImg2,.holderImg3{
+    position: relative;
+    overflow: hidden;
+}
+
+.holderImg::before{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    height: 100%;
+    background-color: #ff000075;
+
+
+}
+.holderImg2::before{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    height: 100%;
+    background-color: #00800075;
+
+
+}
+.holderImg3::before{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    height: 100%;
+    background-color: #0d6efd8c;
+
+
+}
+.threthBackground{
+    background: whitesmoke;
+    position: relative;
+    top: 50px;
+    padding: 50px;
+}
+.avtarImg{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    float: right;
+    z-index: 1;
+    position: relative;
+    top: -19px;
+    left: 12px;
+
+}
+.sectionTestmonils{
+    background: white;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 340px;
+}
+.nameForAvater{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.workname{
+    margin: 0px 10px;
+    color: #80808096;
+    font-size: 15px;
+}
+.parghraph4{
+    margin: 10px;
+    color: #8080808a;
+    font-size: 15px;
+}
+.start5{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -6px;
+}
+#sectionTestmonils{
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 10px;
+    position: relative;
+    left: 5px;
+
+}
+
+#sectionForTeam{
+    background: whitesmoke;
+    width: 282px;
+    height: 400px;
+    position: relative;
+    margin: 40px;
+    border-radius: 10px;
+    left: 20px;
+}
+.title6{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.praghraph6{
+    margin: 10px;
+    position: relative;
+    top: 40px;
+}
+.linkSocial{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    float: right;
+    margin: 15px;
+    position: relative;
+    top: -150px;
+}
+.imgTeam{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 47px;
+    right: 50px;
+
+}
+#social{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.fourBackground{
+    background: whitesmoke;
+    position: relative;
+    top: 50px;
+    padding: 50px;
+}
+
+#SectionService{
+    background: white;
+    text-align: center;
+  
+    width: 325px;
+    margin: 22px;
+    cursor: pointer;
+}
+#SectionService:hover{
+    top: -150px;
+    border-top: 2px solid #0d6efd;
+ 
+}
+#ServiceIcons{
+    width: 50px;
+    /* font-size: 31px; */
+    height: 50px;
+    margin: 10px;
+    
+}
+.titleForIcons{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+    color: #0d6efdb8;
+}
+.buttomSection{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    position: relative;
+   
+   
+    padding: 6px;
+}
+.number{
+    font-size: 20px;
+    font-weight: bold;
+    background: #0d6efdb8;
+    width: 55px;
+    height: 100%;
+    position: relative;
+    right: 19px;
+    color: white;
+    top: 9px;
+    padding: 5px;
+}
+.details{
+    font-size: large;
+    color: #0d6efdb8;
+    padding: 5px;
+    position: relative;
+    top: 9px;
+    left: 19px;
+}
+
+.forAdobe{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+}
+.progrss{
+    height: 35px;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.416);
+    margin: 5px;
+    position: relative;
+}
+.spanForAdobe80{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    background: #0d6efdb8;
+    margin: 0;
+    display: block;
+}
+.spanForAdobe85{
+    position: absolute;
+    width: 85%;
+    height: 35px;
+    background: #0d6efdb8;
+    margin: 0;
+    display: block;
+}
+.spanForAdobe70{
+    position: absolute;
+    width: 70%;
+    height: 35px;
+    background: #0d6efdb8;
+    margin: 0;
+    display: block;
+}
+.number80{
+    font-size: 15px;
+    position: relative;
+    top: -35px;
+    float: right;
+    font-weight: bold;
+    right: 107px;
+    background: black;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.number85{
+    font-size: 15px;
+    position: relative;
+    top: -35px;
+    float: right;
+    font-weight: bold;
+    right: 75px;
+    background: black;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.number70{
+    font-size: 15px;
+    position: relative;
+    top: -35px;
+    float: right;
+    font-weight: bold;
+    right: 172px;
+    background: black;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+.fiveBackground{
+    background: whitesmoke;
+    position: relative;
+    top: 50px;
+}
+.workImg{
+    width: 60px;
+    height: 55px;
+    position: relative;
+    top: 35px;
+}
+.allInfo{
+    background: #ffffff5c;
+    padding: 22px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 15px 0;
+    position: relative;
+    top: -30px;
+}
+.tileforInfo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+    position: relative;
+    top: -33px
+}
+.pargraphForInfo{
+    margin-left: 90px;
+    color: #808080a1;
+    position: relative;
+    top: -30px;
+}
+.backForImge{
+    background-image: url(images3/dots.png);
+    background-repeat: no-repeat;
+}
+
+.allTime{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+    left: 120px;
+    margin: 36px 0;
+}
+.days{
+
+}
+.numberDays{
+    font-size: 30px;
+    margin: 0 2px;
+    font-weight: bold;
+    color: #0d6efd;
+}.titleForHour{
+    font-size: 22.5px;
+    margin: 0 2px;
+    color: rgba(128, 128, 128, 0.495);
+}
+.numberHour{
+    font-size: 22.5px;
+    margin: 0 2px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+.titleForNumber{
+    font-size: 30px;
+    margin: 0 2px;
+    color: rgba(128, 128, 128, 0.495);
+}
+.numberMinutes{
+    font-size: 15px;
+    margin: 0 2px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+.titleForMinutes{
+    font-size: 15px;
+    margin: 0 2px;
+    color: rgba(128, 128, 128, 0.495);
+}
+.numberSeconds{
+    font-size: 10px;
+    margin: 0 2px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+.titleForSeconds{
+    font-size: 10px;
+    margin: 0 2px;
+    color: rgba(128, 128, 128, 0.495);
+}
+.textForTime{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+.eventImg{
+    width: 390px;
+    position: relative;
+    left: 80px;
+}
+
+
+
+.sexBackground{
+    text-align: center;
+    background: whitesmoke;
+    padding: 100px;
+    position: relative;
+    top: 50px;
+}
+.titleForPricing{
+    font-size: 31px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+li{
+    font-size: large;
+    position: relative;
+    right: 14px;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    
+}
+
+.pracingImag{
+margin: 10px 0;
+}
+ul{
+    list-style: none;
+    
+}
+.pricing{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0d6efdd9;
+}
+
+.btnforprcing{
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: 2px solid #0d6efdde;
+    font-weight: bold;
+    color: #0d6efdd9;
+    background: transparent;
+}
+
+#pracingSection{
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 40px;
+}
+
+#videoSection
+{
+    background: whitesmoke;
+    width: fit-content;
+    margin: 30px;
+}  
+#provImg{
+    margin: 0px;
+    padding: 14px;
+    width: 700px;
+    position: relative;
+    right: 84px;
+}
+.fristSectionForVideos{
+    display: flex;
+    justify-content: space-around;
+}
+.titleVidos{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 38px;
+}
+#maxIcon{
+    position: relative;
+    right: 35px;
+    font-size: 23px;
+    top: 17px;
+}
+.titleName,.minuteForVideo{
+    margin: 15px;
+    font-size: 20px;
+    font-family: auto;
+    cursor: pointer;
+    
+}
+.titleName:hover{
+    color: #0d6efd;
+}
+.minuteForVideo{
+    border-bottom: 1px solid #eee;
+}
+.whiteBackground{
+    background: white;
+    width: fit-content;
+    position: relative;
+    right: 3px;
+}
+.txtDescriptionForVideo{
+    font-size: 30px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 124px;
+    width:100vh;
+    right: 53px;
+    font-family: auto;
+}
+
+.sevenBackground{
+position: relative;
+text-align: center;
+background: url(images3/stats.jpg);
+height: 440px;
+}
+#awsomeStats{
+    background: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    margin: 5px;
+}
+#icons{
+   width: 30px;
+   height: 30px;
+    margin: 5px;
+}
+.iconsForStats{
+
+}
+.numberForState{
+    font-size: 38px;
+    font-weight: bold;
+    margin: -7px;
+}
+.typeForState{
+    font-size: 20px;
+    margin: -15px;
+    color: #0d6efdde;
+}
+
+h1{
+    margin: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+#rowForStats{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+.eightBackground{
+    
+}
+.titleForEndSection{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px;
+    color: #0d6efd;
+}
+.pregraphForEnd{
+    margin: 0px 60px;
+    position: relative;
+
+   
+}
+#endOneMore{
+    background: #0d6dfd55;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+}
+.form-control{
+    margin: 5px 0;
+    width: 400px;
+}
+#lastOne{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px;
+    color: #0d6efd;
+}
+#inputSection{
+    position: relative;
+    top: 100px;
+}
+footer{
+    position: relative;
+    top: 200px;
+background-color: black;
+padding: 100px;
+}
+#containerFotoor{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+    font-size: 43px;
+    /* margin: 32px; */
+}
+.prhagraph{
+    color: white;
+    width: 400px;
+    /* margin: 30px; */
+}
+#lastIcons{
+    background: #6c757d3b;
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    color: #ffffff87;
+}
+#lastLink{
+    margin: 20px;
+    font-size: large;
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+    border-bottom: 1px solid #eeeeee95;
+    
+}
+#mapIcons{
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 13px 17px;
+}
+.test{
+    font-size: large;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.Send{
+    padding: 15px;
+    width: 200px;
+    border: 1px solid #0d6efd;
+    font-size: 25px;
+    background: transparent;
+    font-weight: bold;
+    color: #0d6efd;
+    border-radius: 10px;
+}
